@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#logo {
+	width:10%; 
+	height:10%;
+	background: none;
+}
+
+.main {
+	background: #ec1464;
+}
+
+@media screen and (max-width: 480px) {
+	#logo {
+		width: 50%;
+		height: 50%;
+		}
+	h1 {
+		font-size: 100%;
+	}
+	p {
+		font-size: 80%;
+	}
+}
